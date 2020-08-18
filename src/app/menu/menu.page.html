@@ -1,0 +1,80 @@
+<ion-app>
+    <ion-header>
+        <ion-toolbar>
+            <ion-grid>
+                <ion-row>
+                    <ion-col offset-md="4.5" size-md="3" offset="4" size="4">
+                        <img class="trend-img" src="https://i.imgur.com/O5j4Sj9.png">
+                    </ion-col>  
+                </ion-row>
+            </ion-grid>
+        </ion-toolbar>
+    </ion-header>
+      
+
+    <ion-content>
+        <ion-row class="menu">
+            <ion-col offset-md="3" size-md="6">
+                <div class="menutitle">
+                    <p>Menu</p>
+                </div>
+            </ion-col>
+        </ion-row>
+          <ion-grid>
+              <ion-row>
+                  <ion-item [routerLink]="['/register']" routerDirection="forward" lines="none" detail="false" style="margin: auto">
+                      <ion-col>
+                          <div class="menuoption">
+                              <ion-icon name="pencil-sharp" style="color: #285078; font-size: 100px"></ion-icon>
+                              <div style="background-color: #a6b6c7; color: white; font-style: italic;"><p>Sign Up</p></div>
+                          </div>
+                      </ion-col>
+                  </ion-item>
+                  <ion-item style="margin: auto">
+                      <ion-col>
+                          <div class="menuoption">
+                              <ion-icon name="eye-outline" style="color: #285078; font-size: 100px"></ion-icon>
+                              <div style="background-color: #a6b6c7; color: white; font-style: italic;"><p>Overview</p></div>
+                          </div>
+                      </ion-col>
+                  </ion-item>            
+              </ion-row>
+              <ion-row >
+                  <ion-item [routerLink]="['/schedule']" routerDirection="forward" lines="none" detail="false" style="margin: auto">
+                      <ion-col>
+                          <div class="menuoption">
+                              <ion-icon name="calendar-outline" style="color: #285078 ;font-size: 100px"></ion-icon>
+                              <div style="background-color: #a6b6c7; color: white; font-style: italic;"><p>Schedules</p></div>
+                          </div>
+                      </ion-col>
+                  </ion-item>
+                  <ion-item style="margin: auto">
+                      <ion-col>
+                          <div class="menuoption">
+                              <ion-icon name="chatbox-ellipses-outline" style="color: #285078; font-size: 100px"></ion-icon>
+                              <div style="background-color: #a6b6c7; color: white; font-style: italic;"><p>Feedbacks</p></div>
+                          </div>
+                      </ion-col>
+                  </ion-item>
+              </ion-row>
+          </ion-grid>
+  </ion-content>
+  <ion-footer>
+      <ion-toolbar>
+          <ion-grid>
+            <ion-row>
+                <ion-col size="3">
+                    <ion-button fill="clear" size="small" [routerLink]="['/menu']" routerDirection="forward" lines="none" detail="false" style="margin: auto">
+                        <ion-icon name="exit-outline" style="font-size: 40px"></ion-icon>
+                    </ion-button>
+                </ion-col>
+                <ion-col offset="6" size="3">
+                    <ion-button fill="clear" size="small" [routerLink]="['/notifications']" routerDirection="forward" lines="none" detail="false" style="margin: auto">
+                        <ion-icon name="notifications-outline" style="font-size: 40px"></ion-icon>
+                    </ion-button>
+                </ion-col>
+            </ion-row>
+          </ion-grid>
+      </ion-toolbar>
+  </ion-footer>
+</ion-app>

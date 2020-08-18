@@ -1,0 +1,73 @@
+<ion-app>
+    <ion-header>
+        <ion-toolbar>
+          <ion-grid>
+            <ion-row>
+              <ion-col size="3.5">
+                <ion-button fill="clear" [routerLink]="['/menu']" routerDirection="forward" lines="none" detail="false" style="width: 100%;">
+                  <ion-icon slot="icon-only" class="white" name="home-outline"></ion-icon>
+                </ion-button>
+              </ion-col>
+              <ion-col size="5">
+                <img class="trend-img" src="https://i.imgur.com/O5j4Sj9.png">
+              </ion-col>
+              <ion-col size="3.5">
+                <ion-button fill="clear" style="width: 100%;">
+                  <ion-icon slot="icon-only" class="white" name="exit-outline"></ion-icon>
+                </ion-button>
+              </ion-col>
+            </ion-row>
+          </ion-grid>
+        </ion-toolbar>
+    </ion-header>
+      
+    <ion-content>
+      <ion-row class="menu">
+          <ion-col offset-md="3" size-md="6">
+              <div class="menutitle">
+                  <p>Register</p>
+              </div>
+          </ion-col>
+      </ion-row>
+      <ion-item class="menu" style="margin-top: 20px;">
+          <ion-row style="background-color: #e7e7e7;">
+              <ion-col>
+                  <div class="menuoption">
+                      <img src="https://image.flaticon.com/icons/svg/538/538899.svg" style="width: 90px">    
+                  </div>
+              </ion-col>
+              <ion-col>
+                  <div class="registeroption">
+                      <p>Teacher</p>
+                  </div>
+                  <div class="registeroptionline"></div>
+              </ion-col>
+          </ion-row>
+      </ion-item>
+      <ion-item class="menu" style="margin-top: 20px;">
+          <ion-row style="background-color: #e7e7e7;">
+              <ion-col>
+                  <div class="menuoption">
+                      <img src="https://image.flaticon.com/icons/svg/566/566985.svg"  style="width: 90px">
+                  </div>
+              </ion-col>
+              <ion-col>
+                  <div class="registeroption">
+                      <p>Student</p>
+                  </div>
+                  <div class="registeroptionline"></div>
+              </ion-col>
+          </ion-row>
+      </ion-item>
+      <ion-row class="menu" style="background-color: #e7e7e7; margin-top: 40px;">
+          <ion-col>
+              <div class="registrationmode">
+                  <img src="https://image.flaticon.com/icons/png/512/2919/2919747.png">
+              </div>
+          </ion-col>
+          <ion-col>
+              <p style="font-size: 18px; color: grey; font-style: italic;">registration mode</p>
+          </ion-col>
+      </ion-row>
+  </ion-content>
+</ion-app>

@@ -1,0 +1,44 @@
+.quickpadding{
+    padding-top: 5em;
+}
+
+#icone1{
+    height: 5em;
+    width: 100%;
+    color: #285078;
+}
+
+.btn{
+    --color: white;
+    --background: #285078;
+}
+
+.backgray{
+    background-color: lightgray;
+    /*margin-top: 1em;*/
+    border: solid grey 1px;
+}
+
+.text1{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.text2{
+    color: black;
+    font-weight: normal;
+    font-size: normal;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.text3{
+    color: #285078;
+    font-weight: bold;
+    font-size: medium;
+    text-align: start;
+}

@@ -1,0 +1,65 @@
+  /* Organização dos slides */
+  ion-slides {
+    height: 95%;
+    --bullet-background:  black;
+    --bullet-background-active:  #2A5179;
+  
+  }
+  
+  /*Para criar a barra superior*/
+   .item1{                
+     height:90px;
+     width:360px;
+     background-color:#2A5179;
+     
+   }
+   /*Para alinhar o texto central*/
+   .box {                   
+      margin-top:600px;
+   }
+   
+   /* adicionado  aspas  e personalizando texto central*/
+  
+  .interna {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .noticias .interna H5{ 
+    width:100%; 
+    line-height: 33px;
+    font-size: 19px;
+    font-family: "Times New Roman", Times, serif;
+    text-align:center;
+    color: 	#1C1C1C;
+    font-style: italic;
+    padding-bottom: 0;
+    position: relative;
+  }    
+  .noticias .interna H5::before{ 
+    content: "“";
+    line-height: 33px;
+    font-weight: bold;
+    font-size: 80px;
+    font-family: "Times New Roman", Times, serif;
+    color:#2A5179;
+    position: absolute;
+    top: -0rem;
+    margin-left: -2.0rem;
+  }
+  .noticias .interna H5::after{ 
+    content: "”";
+    line-height: 33px;
+    font-weight: bold;
+    font-size: 80px;
+    font-family: "Times New Roman", Times, serif;
+    color:#2A5179;
+    position: absolute;
+    bottom: -1.0rem;
+    padding-left: 10px;
+    margin-left: -1.0rem;
+  }
+  /* Para alinhar a imagem */
+  .img1{                   
+    margin-top: 60px;
+  
+  }

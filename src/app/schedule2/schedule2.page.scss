@@ -1,0 +1,40 @@
+.text1{
+    color: #285078;
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 4em;
+}
+
+.text2{
+    color: black;
+    font-weight: normal;
+    font-size: small;
+    margin-top: 4em;
+}
+
+.text3{
+    color: #285078;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.linebottom{
+    border-bottom: #285078 solid 2px;
+}
+
+.backgray{
+    background-color: lightgray;
+    margin-top: 1em;
+    border: solid gray 1px;
+}
+
+.btn{
+    --color: #285078;
+    --background: lightgray;
+    border: solid 2px grey;
+}
+
+.btn-text{
+    color: #285078;
+    font-size: 15px;
+}

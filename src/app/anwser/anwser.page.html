@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar >
+    <table class='item1'>
+      <tr>
+        <td class="lin"><img  width=40% src="https://i.imgur.com/O5j4Sj9.png"></td>
+        <td class="lin1">
+            <ion-icon class="but" [routerLink]="['/home']" name="home-outline"></ion-icon>
+        </td> 
+        <td class="lin2">
+          <ion-icon class="but" [routerLink]="['/home']" name="exit-outline"></ion-icon>
+        </td>
+      </tr>
+    </table>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="box1">
+    <table class='item2'>
+      <tr>
+        <td class="cent"><img width="30" height="30" src="/assets/icon/img/answer.png"></td>
+        <td> Answer</td> 
+      </tr>
+    </table>
+  </div>
+ 
+  <div class='box2' >
+    <br>
+      <h2>To justify your absence,<br>
+          simply call our central<br>
+          service at the number...</h2>
+
+          <h6><b>(11) 3667-7240</b></h6>
+          
+          <h2>or send us an email...</h2>
+      
+          <h6><b>contato@trendschool.com</b></h6>
+  </div>
+  <div class='box'>
+    <h3>Any more questions? Contact us</h3>
+            <p><b>(11) 3667-7240</b></p>
+  </div>
+  
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-buttons  slot="start">
+      <ion-back-button  icon="chevron-back-outline" text="back" defaultHref="/doubts">
+      </ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

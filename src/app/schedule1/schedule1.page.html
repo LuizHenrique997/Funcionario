@@ -1,0 +1,86 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="3.5">
+          <ion-button fill="clear" [routerLink]="['/menu']" routerDirection="forward" lines="none" detail="false" style="width: 100%;">
+            <ion-icon slot="icon-only" class="white" name="home-outline"></ion-icon>
+          </ion-button>
+        </ion-col>
+        <ion-col size="5">
+          <img class="trend-img" src="https://i.imgur.com/O5j4Sj9.png">
+        </ion-col>
+        <ion-col size="3.5">
+          <ion-button fill="clear" style="width: 100%;">
+            <ion-icon slot="icon-only" class="white" name="exit-outline"></ion-icon>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row class="linebottom">
+      <ion-col size="4" >
+        <img class="ion-img" src="https://segredosdomundo.r7.com/wp-content/uploads/2015/08/destaque36.jpg">
+      </ion-col>
+      <ion-col size="8" >
+        <div class="text1"><p>Hello Roberto!</p></div>
+        <div class="text2"><p>Texto aleatório que eu não consigo ler</p></div>
+      </ion-col>
+    </ion-row>
+    <ion-row class="backgray">
+      <ion-col size="2" class="ion-align-self-start">
+        <ion-icon class="blue" name="library-outline"></ion-icon>
+      </ion-col>
+      <ion-col>
+        <div class="text3">Packages</div> 
+      </ion-col>
+    </ion-row>
+    <ion-card>
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-label class="text3">Bussines Comunication</ion-label>
+            <ion-checkbox color="primary" checked slot="start" checked="false"></ion-checkbox>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          <ion-item>
+            <ion-label class="text3">Others Packages</ion-label>
+            <ion-checkbox color="primary" checked slot="start" checked="false"></ion-checkbox>
+          </ion-item>
+        </ion-col>
+      </ion-row>
+    </ion-card>
+  </ion-grid>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="5" size-md="3">
+          <div class="ion-button">
+            <ion-button class="btn" expand="full" [routerLink]="['/schedule']" routerDirection="forward" lines="none" detail="false">
+              <div class="btn-text"><p>Previous</p></div>
+              <ion-icon slot="start" name="arrow-back-outline"></ion-icon>
+            </ion-button>
+          </div>
+        </ion-col>
+        <ion-col offset="2" size="5">
+          <div class="ion-button">
+            <ion-button class="btn" expand="full" [routerLink]="['/schedule2']" routerDirection="forward" lines="none" detail="false">
+              <div class="btn-text"><p>Next</p></div>
+              <ion-icon slot="end" name="arrow-forward-outline"></ion-icon>
+            </ion-button>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-footer>

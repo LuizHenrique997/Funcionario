@@ -1,0 +1,97 @@
+<ion-content>
+  <ion-grid>
+    <ion-row class="quickpadding">
+      <ion-col>
+        <ion-icon id="icone1" name="thumbs-up-outline"></ion-icon>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div class="text1" >Added Times, <span>Roberto</span>!</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="backgray">
+      <ion-col>
+        <div class="text3">Package</div> 
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <div class="text2">Business Comunication</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="backgray">
+      <ion-col>
+        <div class="text3">Session</div> 
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <div class="text2">Language Alignment</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="backgray">
+      <ion-col>
+        <div class="text3">Student</div> 
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <div class="text2">Roberto Martinz</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="backgray">
+      <ion-col>
+        <div class="text3">Avaliable Times</div> 
+      </ion-col>
+    </ion-row>
+
+    <ion-card>
+      <ion-row [routerLink]="['/schedule5']" routerDirection="forward" lines="none" detail="false">
+        <ion-col size="2">
+          <ion-button fill="clear" size="small">
+            <ion-icon slot="icon-only" color="danger" name="close-outline"></ion-icon>
+          </ion-button>
+        </ion-col>
+        <ion-col size="6">
+          <div class="text2">Monday, 12, November</div>
+        </ion-col>
+        <ion-col size="4">
+          <div class="text2">4.00 - 6.00</div>
+        </ion-col>
+      </ion-row>
+      <ion-row [routerLink]="['/schedule5']" routerDirection="forward" lines="none" detail="false">
+        <ion-col size="2">
+          <ion-button fill="clear" size="small">
+            <ion-icon slot="icon-only" color="danger" name="close-outline"></ion-icon>
+          </ion-button>
+        </ion-col>
+        <ion-col size="6">
+          <div class="text2">Tuesday, 13, November</div>
+        </ion-col>
+        <ion-col size="4">
+          <div class="text2">7.00 - 9.00</div>
+        </ion-col>
+      </ion-row>
+    </ion-card>
+
+    <ion-row>
+      <ion-col offset="3" size="6">
+        <div class="ion-button">
+          <ion-button class="btn" expand="full" [routerLink]="['/menu']" routerDirection="forward" lines="none" detail="false">
+            <div class="btn-text"><p>Back to Menu</p></div>
+            <ion-icon slot="start" name="arrow-back-outline"></ion-icon>
+          </ion-button>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
